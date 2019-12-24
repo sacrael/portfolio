@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import {Route, Link, BrowserRouter as Router} from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 
 import './css/index.css'
 import './css/muiz.css'
@@ -16,6 +17,9 @@ import About from './components/about'
 
 
 const routing = (<Router>
+    <Helmet>
+      <title>Abdul-Muiz Yusuff | Portfolio</title>
+    </Helmet>
     <div className="width-content-area">
       <Navarea />
       <div className="next-to-nav">
