@@ -1,0 +1,320 @@
+body {
+  background-color: white;
+}
+
+.muiz-navarea {
+  width: 80px;
+  top: 0;
+  height: 100%;
+  bottom: 0;
+  text-align: right;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  background-color: #7494FF;
+  position: absolute;
+  left:0;
+  min-height: 500px;
+}
+
+.width-content-area {
+  width: 1080px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.next-to-nav,
+.muiz-navarea {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.next-to-nav {
+  position: relative;
+  left: 80px;
+}
+
+.name-nav {
+  height: 80px;
+  width: 1000px;
+  line-height: 80px;
+  background-color: #6E8BFF;
+  box-sizing: border-box;
+  padding: 0px 30px;
+  font-size: 20px;
+  font-family: "Bitter";
+  color: white;
+}
+
+.muiz-navarea .logo {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  left: -20px;
+  font-family: 'Bitter';
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 80px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  background-color: #6E8BFF;
+}
+
+.muiz-navarea .social-btns {
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
+  width: 250px;
+
+}
+
+.muiz-navarea .social-btns .github {
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  line-height: 45px;
+  border-radius: 5px;
+  outline: none;
+  border-style: solid;
+  border: 0px;
+  font-size: 30px;
+  font-family: "Quicksand";
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+.muiz-navarea .social-btns .github {
+  background: rgb(247,158,167);
+  background: linear-gradient(135deg, #5ee7df 0%, #b490ca 100%);
+}
+
+.muiz-navarea .pagelinks {
+  width: 80px;
+  position: relative;
+  left: -50px;
+  top: -16px;
+}
+
+.muiz-navarea .pagelinks li {
+  list-style: none;
+  position: relative;
+  font-family: "Quicksand";
+}
+
+.muiz-navarea .pagelinks ul {
+  padding: 0;
+}
+
+.muiz-navarea .pagelinks ul > a {
+  width: 80px;
+  box-sizing: border-box;
+  display: block;
+  cursor: pointer;
+  height: 80px;
+  line-height: 80px;
+  color: white;
+  transition: background 0.25s, color 0.25s;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.muiz-navarea .pagelinks ul > a.active {
+  background-color: white;
+color: rgba(0, 0, 0, 0.9);
+}
+
+.muiz-navarea .pagelinks ul > a:hover {
+    background-color: #738cf0;
+}
+
+/* Content Area */
+.content-area {
+  width: 1000px;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  padding: 0px 40px 40px 40px;
+}
+
+.content-area .page-header {
+  font-size: 25px;
+  height: 80px;
+  line-height: 80px;
+  font-weight: bold;
+  font-family: "Quicksand";
+  color: #275b73;
+  margin-bottom: 10px;
+}
+
+.content-area .email-input {
+  width: 100%;
+}
+
+.content-area .email-input input {
+  height: 50px;
+  min-width: 400px;
+  max-width: 450px;
+  margin-bottom: 35px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.6);
+  padding: 0px 20px;
+  box-sizing: border-box;
+  outline: none;
+  transition: border 0.25s;
+}
+
+.content-area .email-input input:focus {
+border: 1px solid rgba(0, 100, 200, 0.7);
+}
+
+.content-area .email-textarea textarea {
+  resize: none;
+  width: 600px;
+  height: 200px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  outline: none;
+  transition: border 0.25s;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 20px;
+}
+
+.content-area .email-textarea textarea:focus {
+  border: 1px solid rgba(0, 100, 200, 0.7);
+}
+
+.content-area .email-submit button {
+  margin-left: 450px;
+}
+
+.magic-btn {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  width: 150px;
+  cursor: pointer;
+  height: 45px;
+  border: none;
+  background: linear-gradient(135deg, #17bf4f 0%, #20c97a 100%);
+}
+
+/* PORTFOLIO STYLE */
+.project-info-preview {
+  width: 350px;
+  height: 250px;
+  display: inline-block;
+  margin: 0px 0px 25px 30px;
+  box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.row > div{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.project-info-preview .folder-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #6E8BFF;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  font-size: 13px;
+}
+
+.project-info-preview .project-name {
+  width: 300px;
+  height: 50px;
+  background: #7494FF;
+  line-height: 50px;
+  box-sizing: border-box;
+  padding: 0px 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.project-info-preview .gray-buffer {
+  width: 50px;
+  background-color: #F6F6F6;
+  height: 200px;
+}
+
+.project-info-preview .project-description {
+  width: 300px;
+  box-sizing: border-box;
+  padding: 20px 18px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.project-info-preview .explore-row {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.project-info-preview .explore-row button.explore {
+  width: 120px;
+  height: 35px;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 0px 15px;
+  position: relative;
+  left: -10px;
+  top: -10px;
+  background-color: #6368EF;
+  border: 1px solid #6368EF;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* ghub-repo */
+.project-info-preview .explore-row button.ghub-repo {
+  width: 120px;
+  height: 35px;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 0px 15px;
+  position: relative;
+  left: -10px;
+  top: -10px;
+  background-color: #2c2c2c;
+  border: 1px solid #2c2c2c;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.about-paragraph {
+  font-family: "Quicksand";
+}
+
+.about-paragraph .skill-icon {
+  cursor: pointer;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 10px 4px;
+  padding: 2px 5px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.05);
+}
+
+.language-icon {
+  width: 35px;
+  height: 40px;
+  margin: 0 auto;
+  border: 1px solid transparent;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}

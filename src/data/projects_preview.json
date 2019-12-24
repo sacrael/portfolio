@@ -1,0 +1,21 @@
+{
+	"projects": [{
+		"name": "Archivio",
+		"version": "1.0",
+		"description": "Archivio is an archiving and documentation application that allows you to archive posts quickly andsynchronize project documentation from your actual code to the documentation page.",
+		"github_repo": "https://github.com/sacrael/archivio",
+    "stack": ["reactjs", "nodejs"]
+	},{
+    "name": "NSBE Career Fair Filter",
+    "version": "1.0",
+    "description": "This is a NSBE Career Fair filtering application I made to ease the process of finding which companies are worth student's time to visit by filtering for what they are looking for.",
+    "external_link": "https://nsbe-shpe-career-fair-filter.herokuapp.com/",
+    "stack": ["angularjs", "nodejs"]
+  },{
+		"name": "Webpage Capture",
+		"version": "1.0",
+		"description": "Webpage Capture is a chrome extension that allows you to take screenshots of your current working tab and manage your collection of screenshots.",
+		"github_repo": "https://github.com/sacrael/Webpage-Capture",
+    "stack": ["javascript"]
+	}]
+}
