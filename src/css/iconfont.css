@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-muiz:before {
+  content: "\e938";
+}
 .icon-node:before {
   content: "\e90f";
   color: #8cc84b;

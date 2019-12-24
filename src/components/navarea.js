@@ -18,7 +18,7 @@ class Navarea extends React.Component<{}, {}> {
 
   render () {
     return (<div className="muiz-navarea">
-      <div className="logo">M</div>
+      <div className="logo"><span class="icon-muiz"></span></div>
       <div className="pagelinks">
         <ul>
           <a onClick={ (e) => { e.preventDefault(); this.props.history.push('/portfolio'); } } className={`${ this.isPage("portfolio") ? "active" : "" }`}><li><i class={`icon-portfolio`} alt="Portfolio"></i></li></a>
