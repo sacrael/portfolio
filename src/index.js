@@ -15,7 +15,6 @@ import Contact from './components/contact'
 import Portfolio from './components/portfolio'
 import About from './components/about'
 
-
 const routing = (<Router>
     <Helmet>
       <title>Abdul-Muiz Yusuff | Portfolio</title>
