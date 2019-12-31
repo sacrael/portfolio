@@ -4,6 +4,8 @@
 		"version": "1.0",
 		"description": "Archivio is an archiving and documentation application that allows you to archive posts quickly andsynchronize project documentation from your actual code to the documentation page.",
 		"github_repo": "https://github.com/sacrael/archivio",
+		"demo": "https://archivio-demo.herokuapp.com/archive/19204858993189#title",
+		"demo_info": "To demo this project use the credentials:\nusername:test123\npassword:test",
     "stack": ["reactjs", "nodejs"]
 	},{
     "name": "NSBE Career Fair Filter",
