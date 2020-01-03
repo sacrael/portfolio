@@ -8,6 +8,12 @@
 		"demo_info": "To demo this project use the credentials:\nusername:test123\npassword:test",
     "stack": ["reactjs", "nodejs"]
 	},{
+		"name": "Vladmir",
+		"description": "Vladmir is a goaltracking app I am working on to collect data and manage my own personal goals I set for myself",
+		"version": "1.0",
+		"external_link": "https://vladmir.herokuapp.com/",
+		"stack": ["reactjs", "nodejs"]
+	},{
     "name": "NSBE Career Fair Filter",
     "version": "1.0",
     "description": "This is a NSBE Career Fair filtering application I made to ease the process of finding which companies are worth student's time to visit by filtering for what they are looking for.",
